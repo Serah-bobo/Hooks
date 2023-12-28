@@ -51,7 +51,7 @@ const Item = () => {
               type="text"
               value={newItemName}
               onChange={handleInputChange}
-              placeholder="add anew fruit"
+              placeholder="add a new fruit"
               className="border rounded-md px-2 py-1 w-full mr-2"
             />
             <button
