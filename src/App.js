@@ -1,10 +1,12 @@
 import Item from "./lists/Item"
-import Contact from "./components/forms/Contact"
+import UseCallBack from "./components/all-hooks/useCallBack"
+import Counter from "./components/all-hooks/Counter"
 const App = () => {
   return (
     <div>
      <Item/>
-   <Contact/>
+  <UseCallBack/>
+ <Counter/>
     </div>
   )
 }
